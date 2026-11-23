@@ -1,0 +1,11 @@
+{
+  "version": "example-1",
+  "note": "Synthetic example. Real decision files come from local review work and stay out of version control.",
+  "entries": [
+    {"term": "Kepler", "decision": "allow", "scope": "tech_context", "note": "GPU architecture name"},
+    {"term": "Ada", "decision": "allow", "scope": "skills_section", "note": "programming language"},
+    {"term": "Rust", "decision": "allow", "scope": "global"},
+    {"term": "Wei", "decision": "mask", "scope": "global", "note": "given name that also appears as a token"},
+    {"term": "Ng", "decision": "mask", "scope": "et_al", "note": "surname before et al."}
+  ]
+}

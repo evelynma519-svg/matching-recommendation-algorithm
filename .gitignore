@@ -1,0 +1,31 @@
+# Data never enters this repository: snapshots, builds, caches, reports.
+data/
+*.jsonl
+*.npy
+*.parquet
+*.sqlite
+*.db
+*.pdf
+*.docx
+*.xlsx
+*.csv
+
+# Local review artifacts: term decisions, audit outputs, de-identification reports.
+*decisions*.json
+!examples/term_decisions.example.json
+audit*.json
+deid_report.json
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+
+# OS and editor files
+.DS_Store
+.Rhistory
+.RData
+.Rproj.user/
